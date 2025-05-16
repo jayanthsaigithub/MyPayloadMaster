@@ -28,41 +28,18 @@ A Bash-based automation toolkit for generating Metasploit payloads, scanning for
 
 ## ⚙️ Prerequisites
 
-Make sure the following are installed:
+Make sure the following are installed on your system:
 
 - ✅ Metasploit Framework (`msfconsole`, `msfvenom`)
 - ✅ Bash shell (Linux/macOS)
-- ✅ Root permissions (for exploits)
-- ✅ Internet connection (for updates/payload delivery)
+- ✅ Root permissions (for running exploits)
+- ✅ Internet connection (for downloading payloads or using HTA delivery)
 
 ---
 
-## 🛠️ Installation & Usage
+## 🛠️ Installation & Setup
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/jayanthsaigithub/MyPayloadMaster.git
-<p>2. Navigate to the script directory:</p>
-
-
-```
-### 2. Move to the repository
-cd PayloadMaster
-```
-
-<p>3. Make the script executable:</p>
-
-```
-### 3. Change the permission and Run the Script
-chmod +x payloadmaster.sh
-```
-
-<p>4. Run the script:</p>
-
-```
-
-./payloadmaster.sh
-```
-
-<p>5. Follow the on-screen instructions to create payloads scan for vulnerabilities and exploit targets.</p>
