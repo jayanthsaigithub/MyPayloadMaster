@@ -1,35 +1,68 @@
-<h1 align="center" id="title">PayloadMaster</h1>
+<h1 align="center">MyPayloadMaster</h1>
 
-<p align="center" id="description">
-PayloadMaster is a Bash-based toolkit that automates the creation of Metasploit payloads, sets up listeners, scans for MS17-010 vulnerabilities, and exploits Windows targets using EternalBlue. Designed for ethical hacking, it simplifies the workflow for penetration testers, students, and cybersecurity professionals in controlled environments.
+<p align="center">
+A Bash-based automation toolkit for generating Metasploit payloads, scanning for MS17-010 vulnerabilities, and exploiting Windows targets (EternalBlue). Built for ethical hacking practice and cybersecurity training.
 </p>
 
 ---
 
-## 🧐 Features
+## 🚀 Features
 
-- Supports payload creation for **Windows**, **Linux**, and **Android** platforms.
-- Interactive selection of payload types (`meterpreter`, `shell_reverse_tcp`, etc.).
-- Scans for **MS17-010 (EternalBlue)** vulnerabilities.
-- Exploits vulnerable **Windows systems** using EternalBlue.
-- Enables **Remote Desktop (VNC)** on compromised Windows targets.
-- Creates **HTA-based phishing servers** for Windows payload delivery.
-- Automates **Metasploit listener setup** with selected parameters.
+- Supports payload generation for:
+  - Windows
+  - Linux
+  - Android
+- Automates listener setup with `msfconsole`
+- Scans for MS17-010 (EternalBlue) vulnerability
+- Exploits vulnerable Windows machines using EternalBlue
+- Enables Remote Desktop access via VNC injection
+- Delivers payloads using HTA server method
+
+---
+
+## 📂 Repository
+
+> **GitHub Repo**: [MyPayloadMaster](https://github.com/jayanthsaigithub/MyPayloadMaster.git)
 
 ---
 
 ## ⚙️ Prerequisites
 
-- **Metasploit Framework** (`msfconsole`, `msfvenom`)
-- Bash Shell (Linux/macOS)
-- Internet connection (optional, but recommended)
-- Root privileges (for most exploit tasks)
+Make sure the following are installed:
+
+- ✅ Metasploit Framework (`msfconsole`, `msfvenom`)
+- ✅ Bash shell (Linux/macOS)
+- ✅ Root permissions (for exploits)
+- ✅ Internet connection (for updates/payload delivery)
 
 ---
 
-## 🛠️ Installation Steps
+## 🛠️ Installation & Usage
 
-1. **Clone the repository:**
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/lohitkolluri/PayloadMaster.git
+git clone https://github.com/jayanthsaigithub/MyPayloadMaster.git
+<p>2. Navigate to the script directory:</p>
+
+
+```
+### 2. Move to the repository
+cd PayloadMaster
+```
+
+<p>3. Make the script executable:</p>
+
+```
+### 3. Change the permission and Run the Script
+chmod +x payloadmaster.sh
+```
+
+<p>4. Run the script:</p>
+
+```
+
+./payloadmaster.sh
+```
+
+<p>5. Follow the on-screen instructions to create payloads scan for vulnerabilities and exploit targets.</p>
