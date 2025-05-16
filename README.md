@@ -48,6 +48,50 @@ chmod +x payloadmaster.sh
 
 <p>5. Follow the on-screen instructions to create payloads scan for vulnerabilities and exploit targets.</p>
 
+# PayloadMaster: Metasploit Automation Script for Ethical Penetration Testing
+
+**PayloadMaster** is a Bash-based toolkit that automates the creation of payloads and execution of common Metasploit modules. It's designed to simplify tasks for ethical hackers, cybersecurity students, and penetration testers working in controlled environments or training labs.
+
+## 🚀 Features
+
+- Generate payloads for Windows, Linux, and Android using `msfvenom`
+- Automatically launch Metasploit listeners (`multi/handler`)
+- Scan for MS17-010 (EternalBlue) vulnerabilities
+- Exploit vulnerable Windows systems using EternalBlue
+- Enable remote desktop (VNC) access on compromised systems
+- Create HTA phishing payload servers
+
+## ⚠️ Disclaimer
+
+> This tool is provided **strictly for educational purposes**, ethical hacking practice, and authorized penetration testing only.
+>
+> ⚠️ **Unauthorized use** of this script on networks or devices you do not own or have **explicit permission** to test is **illegal** and may result in **criminal prosecution**.
+>
+> The creator of this tool is **not responsible** for any misuse, damages, or legal consequences caused by this software.
+>
+> Always follow local laws and industry standards for ethical hacking and obtain proper consent before engaging in any form of security testing.
+
+## 🧪 Intended Use
+
+This tool is ideal for:
+- CTFs (Capture The Flag competitions)
+- Cybersecurity labs (e.g., TryHackMe, HackTheBox)
+- Internal network testing with client approval
+- Education and learning in ethical hacking courses
+
+## 🛠️ Requirements
+
+- Linux or macOS terminal
+- Metasploit Framework installed (`msfconsole`, `msfvenom`)
+- Root privileges for network operations
+
+## 📦 How to Run
+
+```bash
+chmod +x payloadmaster.sh
+./payloadmaster.sh
+
+
 <h2>🛡️ License:</h2>
 
 This project is licensed under the [MIT License](LICENSE)
